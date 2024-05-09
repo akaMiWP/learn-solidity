@@ -43,3 +43,6 @@ contract Payable {
         return address(this).balance;
     }
 }
+
+/// Payable functions and constructors can receive ethers
+/// Payable address can send ethers
